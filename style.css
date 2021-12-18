@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+#navbar {
+    padding: 5rem;
+}
+
+.cta {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 0.85rem 1.25rem;
+}
+
+#navbar .cta {
+    color:#192843;
+    background-color: #E7EFF2;
+}
+
+#navbar .cta:hover {
+    background-color: #192843;
+    color: #e7eff2;
+}
+
+.hero-text {
+    padding-top: 4.5rem;
+    padding-right: 4rem;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #192843;
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    color: #7b8bad;
+    margin-top: 2rem;
+}
+
+.hero-info {
+    margin-top: 2.5rem;
+}
+
+#hero .cta {
+    background-color: #EF6718;
+    color: #FFFFFF;
+}
+
+#hero .cta:hover {
+    background-color: #d35810;
+}
+
+.hero-img {
+    background-image: url("assets/desktop/image-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 100%;
+    border-radius: 1.25em;
+    max-width: 37.5vw;
+    height: 35vw;
+}
+
+.release-date {
+    margin: 0;
+    color: #7b8bad;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.decoration-right {
+    position: absolute;
+    background-color: #e7eff2;
+    height: 25%;
+    width: 9%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 1;
+    right: 0;
+}
+
+.decoration-left {
+    position: absolute;
+    background-color: #e7eff2;
+    height: 25%;
+    width: 5.5%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    z-index: 1;
+    left: 0;
+}
+
+.left-img-spotlight {
+    background-color: #ef6718;
+    background-blend-mode: multiply;
+    background-image: url("assets/desktop/image-phone-and-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 12.25vw;
+    height: 33vw;
+    border-radius: 20px;
+    margin-right: 2vw;
+}
+
+.right-img-spotlight {
+    background-image: url("assets/desktop/image-glass-and-keyboard.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 36.75vw;
+    height: 33vw;
+    border-radius: 20px;
+}
+
+#spotlight {
+    margin-top: 80px;
+}
+
+.spotlight-text {
+    padding-top: 155px;
+    padding-left: 120px;
+}
+
+.spotlight-text h2 {
+    color: #192843;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.spotlight-text p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    color: #7b8bad;
+    margin-top: 2rem;
+}
+
+#features {
+    margin-top: 130px;
+}
+
+.bg-icon {
+    width: 62.5px;
+    height: 65px;
+    background-color: #EF6718;
+    border-radius: 15px;
+}
+
+#features h3 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 60px;
+}
+
+#features p {
+    font-weight: 400;
+    color: #7b8bad;
+    margin-top: 40px;
+}
+
+#footer {
+    margin-top: 190px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#footer span {
+    font-weight: 500;
+}
